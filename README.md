@@ -4,7 +4,7 @@ Application de gestion de tâches en ligne de commande développée en Python 3.
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - Ajouter une tâche
 - Lister les tâches
@@ -14,7 +14,7 @@ Application de gestion de tâches en ligne de commande développée en Python 3.
 
 ---
 
-## ⭐ Bonus implémentés
+##  Bonus implémentés
 
 - Priorités (haute / moyenne / basse)
 - Date d’échéance
@@ -22,7 +22,7 @@ Application de gestion de tâches en ligne de commande développée en Python 3.
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 - `main.py` : point d’entrée du programme
 - `todo.py` : logique des tâches
@@ -30,7 +30,7 @@ Application de gestion de tâches en ligne de commande développée en Python 3.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/sadioondoua/todo-list-python.git
