@@ -1,21 +1,47 @@
-# Todo List Python
+# Todo List Python (CLI)
 
-Application de gestion de tâches réalisée en Python.
+Application de gestion de tâches en ligne de commande développée en Python 3.
 
-## Fonctionnalités
+---
+
+## 🚀 Fonctionnalités
 
 - Ajouter une tâche
 - Lister les tâches
-- Terminer une tâche
+- Marquer une tâche comme terminée
 - Supprimer une tâche
-- Sauvegarder dans un fichier JSON
+- Sauvegarde automatique en JSON
 
-## Bonus
+---
 
-- Gestion des priorités
+## ⭐ Bonus implémentés
+
+- Priorités (haute / moyenne / basse)
 - Date d’échéance
+- Organisation du code en plusieurs fichiers
 
-## Lancer le projet
+---
+
+## 📁 Structure du projet
+
+- `main.py` : point d’entrée du programme
+- `todo.py` : logique des tâches
+- `tasks.json` : stockage des données
+
+---
+
+## ⚙️ Installation
 
 ```bash
+git clone https://github.com/sadioondoua/todo-list-python.git
+cd todo-list-python
 python main.py
+## 📸 Aperçu du projet
+
+## 📸 Aperçu du projet
+
+### Menu principal
+![menu](screenshots/menu.png)
+
+### Liste des tâches
+![tasks](screenshots/tasks.png)
