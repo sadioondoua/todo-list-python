@@ -51,8 +51,8 @@ def list_tasks():
 
     for i, task in enumerate(sorted_tasks):
         status = "✅" if task["done"] else "❌"
-
-        print(f"{i} - {status} {task['title']} [Priorité : {task['priority']}] [Deadline : {task.get('deadline', 'aucune')}]")
+        print("tache non termine")
+        print(f"{i}- {status} {task['title']} [Priorité : {task['priority']}] [Deadline : {task.get('deadline', 'aucune')}]")
 
 def complete_task():
     list_tasks()
@@ -81,11 +81,6 @@ def delete_task():
         else:
             print("Suppression annulée.")
 
-def show_unfinished_tasks():
-    for task in tasks:
-        if not task["done"]:
-            print(task["title"])
-
 
 def menu():
     while True:
@@ -97,7 +92,6 @@ def menu():
         print("3. Terminer")
         print("4. Supprimer")
         print("5. Quitter")
-        print("6. voir les taches non termines")
 
         choice = input("Choisis : ")
 
@@ -118,5 +112,6 @@ def menu():
             break
 
        
-        elif choice == "6":
-            show_unfinished_tasks()
+    
+
+        
